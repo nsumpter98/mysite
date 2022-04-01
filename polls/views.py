@@ -3,9 +3,9 @@ from django.http import HttpResponse, Http404, HttpResponseRedirect
 from django.contrib import admin
 from django.template import loader
 from django.urls import reverse
-from django.utils.regex_helper import Choice
 
-from polls.models import Question
+
+from polls.models import Question, Choice
 
 
 def index(request):
