@@ -20,6 +20,5 @@ class QuestionAdmin(admin.ModelAdmin):
 
 admin.site.register(Question, QuestionAdmin)
 
-admin.site.register(Question, QuestionAdmin)
 # admin.site.register(Question)
 # admin.site.register(Choice)
