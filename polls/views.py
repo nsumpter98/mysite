@@ -2,9 +2,10 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.contrib import admin
 
+
 def index(request):
     if not request.user.is_authenticated:
-        return redirect('%s?next=%s' % (admin.site.urls, request.path))
+        return redirect(admin.site.urls, request.path)
     return HttpResponse("""<!DOCTYPE html>
                             <html lang="en">
                             <head>
