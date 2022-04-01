@@ -5,7 +5,7 @@ from django.contrib import admin
 
 def index(request):
     if not request.user.is_authenticated:
-        return redirect(admin.site.urls, request.path)
+        return redirect(admin.site.urls)
     return HttpResponse("""<!DOCTYPE html>
                             <html lang="en">
                             <head>
