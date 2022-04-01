@@ -29,4 +29,4 @@ def vote(request, question_id):
 
 
 def test(request):
-    return render(request, 'test/index.html')
+    return render(request, 'polls/test/index.html')
