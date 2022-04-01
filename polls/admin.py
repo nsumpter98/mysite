@@ -1,6 +1,6 @@
 from datetime import timezone, datetime
 
-from django.contrib.auth import admin
+from django.contrib import admin
 
 from .models import Question, Choice
 
