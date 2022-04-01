@@ -28,7 +28,7 @@ def index(request):
                             <div class="container">
                               <div class="row">
                                 <div class="col-sm-4">
-                                  <h3>Column 1t1</h3>
+                                  <h3>Jessup Rocks!</h3>
                                   <p>Lorem ipsum dolor..</p>
                                 </div>
                                 <div class="col-sm-4  bg-primary text-white">
