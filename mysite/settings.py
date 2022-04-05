@@ -59,7 +59,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             #os.path.join(BASE_DIR, 'data_visual'),
-            os.path.join(BASE_DIR, 'dashboard'),
+            os.path.join(BASE_DIR, 'dashboard')
         ],
         'APP_DIRS': True,
         'OPTIONS': {
