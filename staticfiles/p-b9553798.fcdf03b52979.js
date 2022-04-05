@@ -1,0 +1,1 @@
+import{i as a}from"./p-fa12caf6.js";const o=()=>{a()};export{o as g}

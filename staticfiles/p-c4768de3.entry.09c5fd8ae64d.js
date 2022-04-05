@@ -1,0 +1,1 @@
+import{r as o,h as r}from"./p-9e7122fd.js";const n=class{constructor(r){o(this,r)}render(){return r("ion-app",null,r("ion-router",{useHash:!1},r("ion-route",{url:"/",component:"app-home"}),r("ion-route",{url:"/profile/:name",component:"app-profile"})),r("ion-nav",null))}};n.style="";export{n as app_root}
